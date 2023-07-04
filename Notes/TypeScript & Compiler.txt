@@ -1,0 +1,34 @@
+
+The TypeScript Compiler
+In order to make the compiler run every time you save and want to see a result in development, you can use (tsc app.ts --watch) || (tsc app.ts -w) to watch the file. Ctrl C to quit. 
+For multiple files, tsc --init.
+Then rerun tsc -w .
+
+
+Explaining The 'tsconfig.json' (though most of them are explained in the comments beside the parameters)
+ "exclude": [
+-      "analytics.ts"
+-    ],
+-    "exclude": [
+-      "*.dev.ts" - for wild cards
+-    ]
+include - opp of exclude
+files - include for whole files
+node_modules are excluded by default
+Source Map helps with debugging, helps you see the ts files (.js.map) in source area
+    -  "outDir": "./",                                   /* Specify an output folder for all emitted files. */ 
+    For example, in projects, you might have a source folder for ts files and a dist folder for js files
+-  "rootDir": "./",  
+Making sure that typescript compiler looks only at the rootDir and the folder structure kept in the rootDir is the same and kept in the outDir 
+- removeComments to emit all comments
+- noEmit - TypeScript compiler will run without generating output files
+- downlevelIteration : more exact compilation for lowerlevel js code, if you have loops and they behavve differently than you expect
+- noEmitOnError - doesn't generate output files if error is found if any files
+- noImplicitAny - ensure clarity on type declaration
+- strictNullChecks - lets values that may hold a null value exist
+- strictBindCallApply - paid attention but don't understand. works for bind call and apply, i haven't used it in js before. 
+
+Debugging
+ES Lint
+Prettier
+Debugger for chrome, GO to debug, chrome, launch json, url, opens debugging view

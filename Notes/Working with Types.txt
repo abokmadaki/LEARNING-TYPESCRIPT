@@ -1,0 +1,19 @@
+Core Types 
+- number (no special types like floats or integers)
+- string ('', "", ``)
+- boolean (true, false)
+// The key difference is: JavaScript uses 'dynamic types' (resolved at runtime), typescript uses 'static types' (set during development). 
+Type Inference (JS does its best to understand the type of a variable on its own unlike typescript).
+
+- object {age: 30}
+- arrays [1,2,3] Any JavaScript array is supported, types can be flexible or strict (regarding the element types)
+
+TypeScript types 
+- tuple [1, 2] fixed length and fixed type
+- enum enum{NEW, OLD} Added by TypeScript: Automatically enumerated global constant identifiers
+- any (most flexible, takes any kind of value);
+
+Type Assertion 
+let message; //By default, any declaration without assigment takes the any type, in order to break this, you need assert the type of the variable so TypeScript knows exactly what you're doing. Ways to assert types: 
+1. (<string>message)
+2. (message as string);

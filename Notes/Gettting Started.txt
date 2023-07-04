@@ -1,0 +1,43 @@
+What is TypeScript?
+TypeScript is a JavaScript superset. A language building up on JavaScript(taking it to the next level with new features and advantages). Browsers can't execute TypeScript.
+- Powerful compiler (compiles TypeScript to JavaScript for execution),
+- Adds syntax for tyeps.
+- Helps you write less bugs, cleaner, easier and more advanced codes. Provides extra error checking early in development.
+
+
+Why TypeScript?
+- Makes you catch those errors during development.
+
+
+TypeScript Overview
+TypeScript adds types, uses modern ide, next-gen JavaScript features, non-JavaScript features like interfaces or generics, meta programming features like decorators, rich configuration options, modern tooling that helps even in non typescript projects.
+
+
+Course Outline
+- Getting Started 
+- TypeScript Basics (core types, how it works, features and all you need to know)
+- Compiler & configuration deep dive
+- Working with next-gen js codes
+- Classes and interfaces
+- Advanced types and typescript features
+- Generics
+- Decorators
+- Time to practice - full project
+- Working with name spaces and modules
+- Webpack & TypeScriptj/'
+- Third party libraries and typescript
+- React + TypeScript & NodeJS, Express and TypeScript
+
+
+How To Get The Most Out Of The Course
+- Watch the Videos at your speed
+- Code along, pause and rewind
+- Practice, practice, practice - advance on your own
+- Debug & Search - Use attached Code, Google, Udemy Search
+- Ask and answer
+
+
+typescriptlang.org - download
+
+https://acad.link/typescript
+
