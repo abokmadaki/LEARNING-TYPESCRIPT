@@ -22,7 +22,7 @@ This project serves as a beginner-friendly introduction to TypeScript. It covers
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/learning-typescript.git`
+1. Clone the repository: `git clone https://github.com/abokmadaki/learning-typescript.git`
 2. Navigate to the project directory: `cd learning-typescript`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
